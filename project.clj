@@ -7,7 +7,8 @@
                  [org.clojure/clojurescript "1.9.494"]]
   :plugins [[lein-cljsbuild "1.1.2"]
             [lein-doo "0.1.6"]]
-  :clujsbuild
+  :test-paths ["test"]
+  :cljsbuild
   {:builds {:test {:id "test"
                    :source-paths ["src" "test"]
                    :compiler {:output-to "target/js/pubmethod-test.js"
