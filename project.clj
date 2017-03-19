@@ -1,4 +1,4 @@
-(defproject glittershark/pubmethod "0.1.0-SNAPSHOT"
+(defproject glittershark/pubmethod "0.1.0"
   :description "Multimethods with support for multiple subscribers"
   :url "https://github.com/glittershark/pubmethod"
   :license {:name "MIT License"
